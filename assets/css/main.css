@@ -223,6 +223,9 @@ input, select, textarea {
 			.container {
 				width: calc(100% - 40px);
 			}
+			#banner {
+				padding: 2em;
+			}
 
 		}
 
@@ -2915,5 +2918,11 @@ input, select, textarea {
 			#footer {
 				padding: 40px 0 20px 0;
 			}
+
+	}
+	@media screen and (max-width: 380px) {
+		#banner {
+			width: 60%;
+		}
 
 	}
