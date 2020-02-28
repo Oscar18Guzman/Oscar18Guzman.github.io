@@ -2061,7 +2061,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		background: url("../../images/banner.jpg") center center;
-		background-size: contain, cover;
+		background-size: cover, contain;
 		background-repeat: no-repeat;
 		padding: 0;
 	}
@@ -2077,16 +2077,17 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 14rem;
+			height: 13rem;
+			width: 103%;
 		}
 
 /* Logo */
 
 	#logo {
-		width: 100%;
+		width: 80%;
 		text-align: center;
 		position: relative;
-		top: 1.5em;
+		top: 5em;
 	}
 
 		#logo h1 {
